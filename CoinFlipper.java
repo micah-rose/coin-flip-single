@@ -79,6 +79,7 @@ public class CoinFlipper extends JFrame
 		 * Create Heads radio button
 		 */
 		JRadioButton rdbtnHeads = new JRadioButton("Heads");
+		rdbtnHeads.setBackground(Color.WHITE);
 		rdbtnHeads.setSelected(true);
 		rdbtnHeads.setFont(new Font("Tahoma", Font.BOLD, 20));
 		rdbtnHeads.addItemListener(new ItemListener() 
@@ -95,6 +96,7 @@ public class CoinFlipper extends JFrame
 		 * Create Tails radio button
 		 */
 		JRadioButton rdbtnTails = new JRadioButton("Tails");
+		rdbtnTails.setBackground(Color.WHITE);
 		rdbtnTails.setFont(new Font("Tahoma", Font.BOLD, 20));
 		rdbtnTails.addItemListener(new ItemListener() 
 		{
@@ -111,6 +113,8 @@ public class CoinFlipper extends JFrame
 		 * Create Random radio button
 		 */
 		JRadioButton rdbtnRandom = new JRadioButton("Random");
+		rdbtnRandom.setOpaque(true);
+		rdbtnRandom.setBackground(Color.WHITE);
 		rdbtnRandom.setFont(new Font("Tahoma", Font.BOLD, 20));
 		rdbtnRandom.addItemListener(new ItemListener() 
 		{
